@@ -1,0 +1,74 @@
+/* style/login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f1f502, green);
+}
+
+#container {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjusted opacity for better readability */
+    padding: 2rem; /* Increased padding */
+    border-radius: 10px; /* Slightly increased border-radius */
+    text-align: center;
+    width: 100%;
+    max-width: 350px; /* Increased max-width for more space */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+h1 {
+    margin-bottom: 1.5rem; /* Increased margin */
+    color: #333;
+}
+
+#msg {
+    margin-bottom: 1rem; /* Increased margin */
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Added gap between elements */
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 0.75rem; /* Increased padding for better touch */
+    border: 1px solid #ccc; /* Slightly lighter border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 0.75rem; /* Increased padding for better touch */
+    border: none;
+    border-radius: 6px; /* Rounded corners */
+    background-color: rgb(204, 236, 18); /* Updated button color */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: yellowgreen; /* Darker green on hover */
+}
+
+a {
+    display: inline-block;
+    margin-top: 1rem; /* Increased margin */
+    color: #141313; /* Updated color for better readability */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:black; /* Slightly lighter color on hover */
+}
